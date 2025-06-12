@@ -1,0 +1,22 @@
+{
+  "name": "article-markdown",
+  "version": "1.0.0",
+  "description": "Convertisseur Notion vers HTML statique",
+  "main": "generate.js",
+  "scripts": {
+    "build": "node generate.js",
+    "clean": "rm -rf output/*",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "notion",
+    "markdown",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "marked": "^12.0.0"
+  }
+}
